@@ -4,15 +4,14 @@ import { useState } from 'react'
 export default function Sidebar() {
   const [abierto, setAbierto] = useState(true)
   return (
-    <aside>
-      <button onClick={() => setAbierto(!abierto)}
-        className={abierto ? 'btn-activo' : 'btn-inactivo'}>   {/*Cambia la clase del botono cuando se activo o inactivo*/}
+    <aside className="flex items-center">
+      <button onClick={() => setAbierto(!abierto)} className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-emerald-500">  
         {abierto ? 'Cerrar menú' : 'Abrir menú'}
       </button>
 
       {abierto && (
-        <nav className='nav-activo'>
-          <ul >
+        <nav className='ml-2 bg-gray-200 p-4 flex space-x-4 rounded-lg'>
+          <ul className="flex space-x-4">
             <li> <NavLink to="/">Dashboard</NavLink></li>
             <li> <NavLink to="/ventas">Ventas</NavLink> </li>
             <li><NavLink to="/productos">Productos</NavLink></li>

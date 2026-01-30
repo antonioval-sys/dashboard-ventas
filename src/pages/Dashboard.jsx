@@ -25,14 +25,14 @@ export default function Dashboard() {
   }, [])
 
   if (!resumen) {
-    return <p>Cargando datos...</p>
+    return <p className='flex justify-center items-center text-emerald-700 text-3xl font-serif' >Cargando datos...</p>
   }
 
   return (
-    <main>
+    <main className='flex justify-center flex-col items-center'>
       <h2>Resumen de Ventas</h2>
 
-      <div>
+      <div className='flex-1 '>
         <StatCard titulo="Ventas del día" valor={formatCurrency(resumen.dia)} />
         <StatCard titulo="Ventas del mes" valor={formatCurrency(resumen.mes)} />
         <StatCard titulo="Órdenes" valor={resumen.ordenes} />
@@ -40,26 +40,34 @@ export default function Dashboard() {
       </div>
       <div>
         <h2>Últimas ventas</h2>
-        <table border="1">
-          <thead >
-            <tr>
-              <th>ID</th>
-              <th>Cliente</th>
-              <th>Total</th>
-              <th>Estado</th>
-            </tr>
-          </thead>
-          <tbody>
-            {ventas.map((venta) => (
-              <tr key={venta.id}>
-                <td>{venta.id}</td>
-                <td>{venta.cliente}</td>
-                <td>{venta.total}</td>
-                <td>{venta.estado}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+      <div className="overflow-x-auto">
+  <table className="min-w-full border border-gray-300">
+    <thead className="bg-gray-100">
+      <tr>
+        <th className="px-4 py-2 text-left text-sm font-medium text-gray-700">ID</th>
+        <th className="px-4 py-2 text-left text-sm font-medium text-gray-700">Cliente</th>
+        <th className="px-4 py-2 text-left text-sm font-medium text-gray-700">Total</th>
+        <th className="px-4 py-2 text-left text-sm font-medium text-gray-700">Estado</th>
+      </tr>
+    </thead>
+    <tbody className="bg-white divide-y divide-gray-200">
+      {ventas.map((venta) => (
+        <tr key={venta.id} className="hover:bg-gray-50">
+          <td className="px-4 py-2 text-sm text-gray-600">{venta.id}</td>
+          <td className="px-4 py-2 text-sm text-gray-600">{venta.cliente}</td>
+          <td className="px-4 py-2 text-sm text-gray-600">{venta.total}</td>
+          <td className={`px-4 py-2 text-sm font-semibold ${
+            venta.estado === 'Pagado' ? 'text-green-600' :
+            venta.estado === 'Pendiente' ? 'text-yellow-600' :
+            'text-red-600'
+          }`}>
+            {venta.estado}
+          </td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
       </div>
     </main>
   )
