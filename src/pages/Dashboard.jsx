@@ -29,19 +29,22 @@ export default function Dashboard() {
   }
 
   return (
-    <main className='flex justify-center flex-col items-center'>
-      <h2>Resumen de Ventas</h2>
+    <main className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+     
 
-      <div className='flex-1 '>
+      <div className='flex flex-col items-center'>
+         <h2 className='text-center font-medium text-3xl mb-3'>Resumen de Ventas</h2>
+         <div className='w-64 text-center'>
         <StatCard titulo="Ventas del día" valor={formatCurrency(resumen.dia)} />
         <StatCard titulo="Ventas del mes" valor={formatCurrency(resumen.mes)} />
         <StatCard titulo="Órdenes" valor={resumen.ordenes} />
         <StatCard titulo="Clientes" valor={resumen.clientes} />
+        </div>
       </div>
-      <div>
-        <h2>Últimas ventas</h2>
-      <div className="overflow-x-auto">
-  <table className="min-w-full border border-gray-300">
+      <div className='flex flex-col'>
+        <h2 className='text-center font-medium text-3xl mb-3'>Últimas ventas</h2>
+      <div className="overflow-x-auto w-full">
+  <table className="w-full max-w-3xl border border-gray-300">
     <thead className="bg-gray-100">
       <tr>
         <th className="px-4 py-2 text-left text-sm font-medium text-gray-700">ID</th>
@@ -53,10 +56,10 @@ export default function Dashboard() {
     <tbody className="bg-white divide-y divide-gray-200">
       {ventas.map((venta) => (
         <tr key={venta.id} className="hover:bg-gray-50">
-          <td className="px-4 py-2 text-sm text-gray-600">{venta.id}</td>
-          <td className="px-4 py-2 text-sm text-gray-600">{venta.cliente}</td>
-          <td className="px-4 py-2 text-sm text-gray-600">{venta.total}</td>
-          <td className={`px-4 py-2 text-sm font-semibold ${
+          <td className="px-2 py-2 text-sm text-gray-600">{venta.id}</td>
+          <td className="px-2 py-2 text-sm text-gray-600">{venta.cliente}</td>
+          <td className="px-2 py-2 text-sm text-gray-600">{venta.total}</td>
+          <td className={`px-2 py-2 text-sm font-semibold ${
             venta.estado === 'Pagado' ? 'text-green-600' :
             venta.estado === 'Pendiente' ? 'text-yellow-600' :
             'text-red-600'

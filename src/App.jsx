@@ -11,20 +11,15 @@ function App() {
 
   return (
     <>
-    <div className="flex items-center p-4 bg-amber-700">
-  {/* Espacio vacío a la izquierda */}
-  <div className="flex-1"></div>
 
-  {/* Header centrado */}
-  <div className="flex-1 flex justify-center">
+  <div className='flex h-screen'>
+  <Sidebar />
+
+  <div className='flex-1  flex flex-col'>
     <Header />
-  </div>
+    
+   
 
-  {/* Sidebar a la derecha */}
-  <div className="flex-1 flex justify-end">
-    <Sidebar />
-  </div>
-</div>
     <Routes>
         <Route path="/" element={<Dashboard />} />
       <Route path="/ventas" element={<Ventas />} />
@@ -32,6 +27,10 @@ function App() {
       <Route path="/clientes" element={<Clientes />} />
       
       </Routes>
+      </div>
+      </div>
+     
+      
       </>
   )
 }
