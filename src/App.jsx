@@ -19,11 +19,8 @@ function App() {
 <AuthProvider>
   <div className='flex h-screen'>
   <Sidebar />
-
   <div className='flex-1  flex flex-col'>
     <Header />
-    
-   
 
     <Routes>
        <Route path="/login" element={<Login />} />
