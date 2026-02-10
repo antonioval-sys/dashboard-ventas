@@ -14,7 +14,7 @@ const logout = () => {
 }
 
 return (
-<AuthContext.Provider value={{user, login, logout}}>{children}</AuthContext.Provider>
+<AuthContext.Provider value={{user, isAuthenticated: !!user, login, logout}}>{children}</AuthContext.Provider>
 )
 }
 
