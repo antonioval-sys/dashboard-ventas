@@ -12,34 +12,34 @@ const pendientePago = pendientes.map( p => p.total);
 
 const sumPag = pagados.reduce( (acum, num) => acum + num, 0);
 
-const sumPen = pagados.reduce( (acum, num) => acum + num, 0);
+const sumPen = pendientePago.reduce( (acum, num) => acum + num, 0);
 
         const data = ventas.map( v => v.total);
-  const maxValue = Math.max(...data);
+
+        const maxValue = data.reduce( (acum, num) => acum + num, 0);
 
   return ( 
     <div className="flex gap-4 h-52 p-2.5 border-b-2 border-l-2 border-b-gray-800 border-l-gray-800 items-end bg-gray-100">
-      {sumPag.map((value, index) => (
-        <div key={index} className="flex-1 flex flex-col justify-end h-full">
+    
+        <div className="flex-1 flex flex-col justify-end h-full">
           <div
             className="w-full bg-emerald-600 transition-all duration-500 ease-in-out"
             style={{
-              height: `${(value / maxValue) * 100}%`
+              height: `${(sumPag / maxValue) * 100}%`
             }}
           />
         </div>
-      ))}
 
-       {sumPen.map((value, index) => (
-        <div key={index} className="flex-1 flex flex-col justify-end h-full">
+     
+        <div className="flex-1 flex flex-col justify-end h-full">
           <div
-            className="w-full bg-emerald-600 transition-all duration-500 ease-in-out"
+            className="w-full bg-amber-500 transition-all duration-500 ease-in-out"
             style={{
-              height: `${(value / maxValue) * 100}%`
+              height: `${(sumPen / maxValue) * 100}%`
             }}
           />
         </div>
-      ))}
+   
     </div>
   );
 }
