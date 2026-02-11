@@ -1,0 +1,45 @@
+ const ventas = [
+    { id: 1, cliente: 'Juan Pérez', total: 3500, estado: 'Pagado' },
+    { id: 2, cliente: 'María López', total: 4200, estado: 'Pendiente' },
+    { id: 3, cliente: 'Carlos Ruiz', total: 4800, estado: 'Pagado' }
+  ]
+
+export default function BarMonth() {
+    const pagos = ventas.filter(v => v.estado === 'Pagado');
+const pendientes = ventas.filter(v => v.estado === 'Pendiente');
+const pagados = pagos.map(p => p.total);
+const pendientePago = pendientes.map( p => p.total);
+
+const sumPag = pagados.reduce( (acum, num) => acum + num, 0);
+
+const sumPen = pagados.reduce( (acum, num) => acum + num, 0);
+
+        const data = ventas.map( v => v.total);
+  const maxValue = Math.max(...data);
+
+  return ( 
+    <div className="flex gap-4 h-52 p-2.5 border-b-2 border-l-2 border-b-gray-800 border-l-gray-800 items-end bg-gray-100">
+      {sumPag.map((value, index) => (
+        <div key={index} className="flex-1 flex flex-col justify-end h-full">
+          <div
+            className="w-full bg-emerald-600 transition-all duration-500 ease-in-out"
+            style={{
+              height: `${(value / maxValue) * 100}%`
+            }}
+          />
+        </div>
+      ))}
+
+       {sumPen.map((value, index) => (
+        <div key={index} className="flex-1 flex flex-col justify-end h-full">
+          <div
+            className="w-full bg-emerald-600 transition-all duration-500 ease-in-out"
+            style={{
+              height: `${(value / maxValue) * 100}%`
+            }}
+          />
+        </div>
+      ))}
+    </div>
+  );
+}

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import StatCard from '../components/StatCard'
 import { formatCurrency } from '../utils/formatCurrency'
+import BarMonth from '../components/BarMonth'
 
 
 export default function Dashboard() {
@@ -71,6 +72,8 @@ export default function Dashboard() {
     </tbody>
   </table>
 </div>
+<div className='flex-2'>
+<BarMonth ventas={ventas}/></div>
       </div>
     </main>
   )
