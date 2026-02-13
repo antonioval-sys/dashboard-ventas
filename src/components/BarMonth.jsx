@@ -1,45 +1,96 @@
- const ventas = [
-    { id: 1, cliente: 'Juan Pérez', total: 3500, estado: 'Pagado' },
-    { id: 2, cliente: 'María López', total: 4200, estado: 'Pendiente' },
-    { id: 3, cliente: 'Carlos Ruiz', total: 4800, estado: 'Pagado' }
+const ventasPorMes = {
+  Enero: [
+    { id: 1, cliente: 'Juan Pérez', total: 35000, estado: 'Pagado' },
+    { id: 2, cliente: 'María López', total: 42000, estado: 'Pendiente' },
+    { id: 3, cliente: 'Carlos Ruiz', total: 48000, estado: 'Pagado' }
+  ],
+  Febrero: [
+    { id: 4, cliente: 'Juan Pérez', total: 39000, estado: 'Pagado' },
+    { id: 5, cliente: 'María López', total: 41000, estado: 'Pagado' },
+    { id: 6, cliente: 'Carlos Ruiz', total: 52000, estado: 'Pendiente' }
+  ],
+  Marzo: [
+    { id: 7, cliente: 'Juan Pérez', total: 36000, estado: 'Pendiente' },
+    { id: 8, cliente: 'María López', total: 45000, estado: 'Pagado' },
+    { id: 9, cliente: 'Carlos Ruiz', total: 50000, estado: 'Pagado' }
+  ],
+  Abril: [
+    { id: 10, cliente: 'Juan Pérez', total: 42000, estado: 'Pagado' },
+    { id: 11, cliente: 'María López', total: 47000, estado: 'Pendiente' },
+    { id: 12, cliente: 'Carlos Ruiz', total: 53000, estado: 'Pagado' }
   ]
+};
 
 export default function BarMonth() {
-    const pagos = ventas.filter(v => v.estado === 'Pagado');
-const pendientes = ventas.filter(v => v.estado === 'Pendiente');
-const pagados = pagos.map(p => p.total);
-const pendientePago = pendientes.map( p => p.total);
 
-const sumPag = pagados.reduce( (acum, num) => acum + num, 0);
+ const totalesPorMes = Object.keys(ventasPorMes).reduce((acc, mes) => {
+  acc[mes] = ventasPorMes[mes].reduce((suma, venta) => suma + venta.total, 0);
+  return acc;
+}, {});
 
-const sumPen = pendientePago.reduce( (acum, num) => acum + num, 0);
+const maxValue = Object.values(totalesPorMes).reduce((acum, num) => acum + num, 0);
 
-        const data = ventas.map( v => v.total);
+  return (
+    <div className="flex gap-4 h-52 p-2.5 border-b-2 border-l-2 border-b-gray-800 border-l-gray-800 items-end bg-gray-100 w-fit ml-3">
+<span>Venta Mensuales</span>
 
-        const maxValue = data.reduce( (acum, num) => acum + num, 0);
+      <div className="flex-1 flex flex-col justify-end h-full">
+        <span>${(totalesPorMes.Enero/ maxValue) * 100}%</span>
+        <div
+          className="w-full bg-sky-600 transition-all duration-500 ease-in-out"
+          style={{
+            height: `${(totalesPorMes.Enero / maxValue) * 100}%`
+          }}
+        />
+        <div>
+          <p>Enero: ${totalesPorMes.Enero}</p>
+        </div>
+      </div>
 
-  return ( 
-    <div className="flex gap-4 h-52 p-2.5 border-b-2 border-l-2 border-b-gray-800 border-l-gray-800 items-end bg-gray-100">
-    
-        <div className="flex-1 flex flex-col justify-end h-full">
-          <div
-            className="w-full bg-emerald-600 transition-all duration-500 ease-in-out"
-            style={{
-              height: `${(sumPag / maxValue) * 100}%`
-            }}
-          />
+
+      <div className="flex-1 flex flex-col justify-end h-full">
+        <span>${(totalesPorMes.Febrero / maxValue) * 100}%</span>
+        <div
+          className="w-full bg-violet-400 transition-all duration-500 ease-in-out"
+          style={{
+            height: `${(totalesPorMes.Febrero / maxValue) * 100}%`
+          }}
+        />
+        <div>
+          <p>Febrero: ${totalesPorMes.Febrero} </p>
         </div>
 
-     
-        <div className="flex-1 flex flex-col justify-end h-full">
-          <div
-            className="w-full bg-amber-500 transition-all duration-500 ease-in-out"
-            style={{
-              height: `${(sumPen / maxValue) * 100}%`
-            }}
-          />
+      </div>
+
+
+       <div className="flex-1 flex flex-col justify-end h-full">
+        <span>${(totalesPorMes.Marzo / maxValue) * 100}%</span>
+        <div
+          className="w-full bg-emerald-500 transition-all duration-500 ease-in-out"
+          style={{
+            height: `${(totalesPorMes.Marzo / maxValue) * 100}%`
+          }}
+        />
+        <div>
+          <p>Marzo: ${totalesPorMes.Marzo} </p>
         </div>
-   
+
+      </div>
+
+       <div className="flex-1 flex flex-col justify-end h-full">
+        <span>${(totalesPorMes.Abril / maxValue) * 100}%</span>
+        <div
+          className="w-full bg-cyan-300 transition-all duration-500 ease-in-out"
+          style={{
+            height: `${(totalesPorMes.Abril / maxValue) * 100}%`
+          }}
+        />
+        <div>
+          <p>Abril: ${totalesPorMes.Abril} </p>
+        </div>
+
+      </div>
+
     </div>
   );
 }

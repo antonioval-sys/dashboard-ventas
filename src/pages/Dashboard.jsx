@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import StatCard from '../components/StatCard'
 import { formatCurrency } from '../utils/formatCurrency'
 import BarMonth from '../components/BarMonth'
+import BarDay from '../components/BarDay'
 
 
 export default function Dashboard() {
@@ -72,9 +73,12 @@ export default function Dashboard() {
     </tbody>
   </table>
 </div>
-<div className='flex-2'>
-<BarMonth ventas={ventas}/></div>
+<div className='mt-3'>
+< BarDay ventas={ventas}/></div>
       </div>
+      <dir>
+        <BarMonth/>
+      </dir>
     </main>
   )
 }
