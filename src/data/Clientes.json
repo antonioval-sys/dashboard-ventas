@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "nombre": "Carlos Hernández",
+    "empresa": "Ventas locales MT",
+    "contacto": "Carlos Hernández",
+    "telefono": "+52 55 1234 5678",
+    "email": "carlos.hernandez@email.com",
+    "ciudad": "Ciudad de México",
+    "estado": "Activo"
+  },
+  {
+    "id": 2,
+    "nombre": "Comercializadora Rivera S.A. de C.V.",
+    "empresa": "Comercializadora Rivera S.A. de C.V.",
+    "contacto": "Laura Rivera",
+    "telefono": "+52 81 2345 6789",
+    "email": "laura@rivera.com.mx",
+    "ciudad": "Monterrey",
+    "estado": "Activo"
+  },
+  {
+    "id": 3,
+    "nombre": "María Fernanda López",
+    "empresa": "Nova One",
+    "contacto": "María Fernanda López",
+    "telefono": "+52 33 3456 7890",
+    "email": "maria.lopez@email.com",
+    "ciudad": "Guadalajara",
+    "estado": "Inactivo"
+  },
+  {
+    "id": 4,
+    "nombre": "Tecnologías Azteca",
+    "empresa": "Tecnologías Azteca",
+    "contacto": "Jorge Martínez",
+    "telefono": "+52 55 4567 8901",
+    "email": "jorge@tecazteca.com.mx",
+    "ciudad": "Ciudad de México",
+    "estado": "Activo"
+  },
+  {
+    "id": 5,
+    "nombre": "Distribuciones del Norte",
+    "empresa": "Distribuciones del Norte",
+    "contacto": "Ana Gómez",
+    "telefono": "+52 81 5678 9012",
+    "email": "ana@dnorte.com.mx",
+    "ciudad": "Monterrey",
+    "estado": "Prospecto"
+  },
+  {
+    "id": 6,
+    "nombre": "Pedro Sánchez",
+    "empresa": "Taquitos pedro",
+    "contacto": "Pedro Sánchez",
+    "telefono": "+52 222 678 9012",
+    "email": "pedro.sanchez@email.com",
+    "ciudad": "Puebla",
+    "estado": "Activo"
+  },
+  {
+    "id": 7,
+    "nombre": "Innovación Digital MX",
+    "empresa": "Innovación Digital MX",
+    "contacto": "Sofía Ramírez",
+    "telefono": "+52 55 7890 1234",
+    "email": "sofia@idmx.com.mx",
+    "ciudad": "Ciudad de México",
+    "estado": "Activo"
+  },
+  {
+    "id": 8,
+    "nombre": "Carmen Torres",
+    "empresa": "",
+    "contacto": "Carmen Torres",
+    "telefono": "+52 999 890 1234",
+    "email": "carmen.torres@email.com",
+    "ciudad": "Mérida",
+    "estado": "Inactivo"
+  },
+  {
+    "id": 9,
+    "nombre": "Servicios Empresariales del Bajío",
+    "empresa": "Servicios Empresariales del Bajío",
+    "contacto": "Luis Morales",
+    "telefono": "+52 477 901 2345",
+    "email": "luis@sebajio.com.mx",
+    "ciudad": "León",
+    "estado": "Activo"
+  },
+  {
+    "id": 10,
+    "nombre": "Constructora Maya",
+    "empresa": "Constructora Maya",
+    "contacto": "Ricardo Méndez",
+    "telefono": "+52 998 012 3456",
+    "email": "ricardo@cmaya.com.mx",
+    "ciudad": "Cancún",
+    "estado": "Prospecto"
+  }
+]

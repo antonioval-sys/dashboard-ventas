@@ -45,7 +45,7 @@ export default function Dashboard() {
       </div>
       <div className='flex flex-col'>
         <h2 className='text-center font-medium text-3xl mb-3'>Últimas ventas</h2>
-      <div className="overflow-x-auto w-full">
+      <div className="overflow-x-auto w-2xl">
   <table className="w-full max-w-3xl border border-gray-300">
     <thead className="bg-gray-100">
       <tr>

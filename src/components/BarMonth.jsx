@@ -31,8 +31,8 @@ export default function BarMonth() {
 const maxValue = Object.values(totalesPorMes).reduce((acum, num) => acum + num, 0);
 
   return (
-    <div className="flex gap-4 h-52 p-2.5 border-b-2 border-l-2 border-b-gray-800 border-l-gray-800 items-end bg-gray-100 w-fit ml-3">
-<span>Venta Mensuales</span>
+    <div className="flex gap-4 h-52 p-2.5 border-b-2 border-l-2 border-b-gray-800 border-l-gray-800 bg-gray-100 w-fit ml-3">
+<span className="-mt-2.5">Venta Mensuales</span>
 
       <div className="flex-1 flex flex-col justify-end h-full">
         <span>${(totalesPorMes.Enero/ maxValue) * 100}%</span>
