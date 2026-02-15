@@ -11,7 +11,7 @@ export default function Sidebar() {
 
       {abierto && (
         <nav className='block py-2 px-3 rounded-3xl bg-gray-700 flex justify-center' >
-          <ul c>
+          <ul>
             <li> <NavLink to="/"   className={({ isActive }) =>
           `block py-2 px-3 rounded transition
           ${isActive ? 'bg-gray-800 text-white' : 'hover:bg-gray-500'}`

@@ -1,3 +1,14 @@
+import ListaClientes from "../components/ListaClientes"
+
+
+
 export default function Clientes() {
-    return <h2>Página de Clientes</h2>
+
+    return (
+    <div>
+    <h2>Lista de clientes</h2>
+    <ListaClientes/>
+</div>
+
+);
 }
