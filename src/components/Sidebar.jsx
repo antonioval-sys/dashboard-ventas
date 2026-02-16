@@ -4,7 +4,7 @@ import { useState } from 'react'
 export default function Sidebar() {
   const [abierto, setAbierto] = useState(true)
   return (
-    <aside className="w-64 bg-gray-800 text-white ">
+    <aside className="w-64 bg-gray-800 text-white  h-screen">
       <button onClick={() => setAbierto(!abierto)} className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-emerald-500 mx-auto block mt-2 mb-2">  
         {abierto ? 'Cerrar menú' : 'Abrir menú'}
       </button>

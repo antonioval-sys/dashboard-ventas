@@ -98,5 +98,905 @@
     "email": "ricardo@cmaya.com.mx",
     "ciudad": "Cancún",
     "estado": "Prospecto"
+  },
+  {
+    "id": 11,
+    "nombre": "Alejandro Ruiz",
+    "empresa": "Soluciones Integrales AR",
+    "contacto": "Alejandro Ruiz",
+    "telefono": "+52 55 1001 0001",
+    "email": "alejandro.ruiz@email.com",
+    "ciudad": "Ciudad de México",
+    "estado": "Activo"
+  },
+  {
+    "id": 12,
+    "nombre": "Beatriz Morales",
+    "empresa": "Grupo BM",
+    "contacto": "Beatriz Morales",
+    "telefono": "+52 81 1002 0002",
+    "email": "beatriz.morales@email.com",
+    "ciudad": "Monterrey",
+    "estado": "Prospecto"
+  },
+  {
+    "id": 13,
+    "nombre": "Consultoría Delta",
+    "empresa": "Consultoría Delta",
+    "contacto": "Raúl Vega",
+    "telefono": "+52 33 1003 0003",
+    "email": "raul.vega@delta.com.mx",
+    "ciudad": "Guadalajara",
+    "estado": "Activo"
+  },
+  {
+    "id": 14,
+    "nombre": "Daniela Castro",
+    "empresa": "Marketing DC",
+    "contacto": "Daniela Castro",
+    "telefono": "+52 222 1004 0004",
+    "email": "daniela.castro@email.com",
+    "ciudad": "Puebla",
+    "estado": "Inactivo"
+  },
+  {
+    "id": 15,
+    "nombre": "Estrategias del Pacífico",
+    "empresa": "Estrategias del Pacífico",
+    "contacto": "Héctor Salinas",
+    "telefono": "+52 667 1005 0005",
+    "email": "hector@pacifico.com.mx",
+    "ciudad": "Culiacán",
+    "estado": "Activo"
+  },
+  {
+    "id": 16,
+    "nombre": "Fernanda Ortiz",
+    "empresa": "FO Distribuciones",
+    "contacto": "Fernanda Ortiz",
+    "telefono": "+52 55 1006 0006",
+    "email": "fernanda.ortiz@email.com",
+    "ciudad": "Ciudad de México",
+    "estado": "Prospecto"
+  },
+  {
+    "id": 17,
+    "nombre": "Grupo Empresarial Luna",
+    "empresa": "Grupo Empresarial Luna",
+    "contacto": "Miguel Luna",
+    "telefono": "+52 477 1007 0007",
+    "email": "miguel@luna.com.mx",
+    "ciudad": "León",
+    "estado": "Activo"
+  },
+  {
+    "id": 18,
+    "nombre": "Hugo Navarro",
+    "empresa": "HN Servicios",
+    "contacto": "Hugo Navarro",
+    "telefono": "+52 999 1008 0008",
+    "email": "hugo.navarro@email.com",
+    "ciudad": "Mérida",
+    "estado": "Inactivo"
+  },
+  {
+    "id": 19,
+    "nombre": "Industrias Kappa",
+    "empresa": "Industrias Kappa",
+    "contacto": "Claudia Ríos",
+    "telefono": "+52 998 1009 0009",
+    "email": "claudia@kappa.com.mx",
+    "ciudad": "Cancún",
+    "estado": "Activo"
+  },
+  {
+    "id": 20,
+    "nombre": "Javier Torres",
+    "empresa": "JT Consultores",
+    "contacto": "Javier Torres",
+    "telefono": "+52 81 1010 0010",
+    "email": "javier.torres@email.com",
+    "ciudad": "Monterrey",
+    "estado": "Activo"
+  },
+  {
+    "id": 21,
+    "nombre": "Karina Soto",
+    "empresa": "KS Comercial",
+    "contacto": "Karina Soto",
+    "telefono": "+52 55 1011 0011",
+    "email": "karina.soto@email.com",
+    "ciudad": "Ciudad de México",
+    "estado": "Prospecto"
+  },
+  {
+    "id": 22,
+    "nombre": "Logística del Centro",
+    "empresa": "Logística del Centro",
+    "contacto": "Óscar Méndez",
+    "telefono": "+52 222 1012 0012",
+    "email": "oscar@logcentro.com.mx",
+    "ciudad": "Puebla",
+    "estado": "Activo"
+  },
+  {
+    "id": 23,
+    "nombre": "Marcos Díaz",
+    "empresa": "MD Proyectos",
+    "contacto": "Marcos Díaz",
+    "telefono": "+52 33 1013 0013",
+    "email": "marcos.diaz@email.com",
+    "ciudad": "Guadalajara",
+    "estado": "Activo"
+  },
+  {
+    "id": 24,
+    "nombre": "Negocios del Sureste",
+    "empresa": "Negocios del Sureste",
+    "contacto": "Patricia León",
+    "telefono": "+52 999 1014 0014",
+    "email": "patricia@sureste.com.mx",
+    "ciudad": "Mérida",
+    "estado": "Inactivo"
+  },
+  {
+    "id": 25,
+    "nombre": "Operadora Sigma",
+    "empresa": "Operadora Sigma",
+    "contacto": "Tomás Herrera",
+    "telefono": "+52 55 1015 0015",
+    "email": "tomas@sigma.com.mx",
+    "ciudad": "Ciudad de México",
+    "estado": "Activo"
+  },
+  {
+    "id": 26,
+    "nombre": "Paola Jiménez",
+    "empresa": "PJ Soluciones",
+    "contacto": "Paola Jiménez",
+    "telefono": "+52 55 1016 0016",
+    "email": "paola.jimenez@email.com",
+    "ciudad": "Ciudad de México",
+    "estado": "Activo"
+  },
+  {
+    "id": 27,
+    "nombre": "Ricardo Flores",
+    "empresa": "RF Consultoría",
+    "contacto": "Ricardo Flores",
+    "telefono": "+52 81 1017 0017",
+    "email": "ricardo.flores@email.com",
+    "ciudad": "Monterrey",
+    "estado": "Prospecto"
+  },
+  {
+    "id": 28,
+    "nombre": "Servicios Integrales del Bajío",
+    "empresa": "Servicios Integrales del Bajío",
+    "contacto": "Laura Campos",
+    "telefono": "+52 477 1018 0018",
+    "email": "laura@bajio.com.mx",
+    "ciudad": "León",
+    "estado": "Activo"
+  },
+  {
+    "id": 29,
+    "nombre": "Química Industrial QI",
+    "empresa": "Química Industrial QI",
+    "contacto": "Enrique Pardo",
+    "telefono": "+52 222 1019 0019",
+    "email": "enrique@qi.com.mx",
+    "ciudad": "Puebla",
+    "estado": "Inactivo"
+  },
+  {
+    "id": 30,
+    "nombre": "Rosa Martínez",
+    "empresa": "RM Distribuciones",
+    "contacto": "Rosa Martínez",
+    "telefono": "+52 33 1020 0020",
+    "email": "rosa.martinez@email.com",
+    "ciudad": "Guadalajara",
+    "estado": "Activo"
+  },
+  {
+    "id": 31,
+    "nombre": "Tecnología Avanzada MX",
+    "empresa": "Tecnología Avanzada MX",
+    "contacto": "Carlos Peña",
+    "telefono": "+52 55 1021 0021",
+    "email": "carlos@tamx.com.mx",
+    "ciudad": "Ciudad de México",
+    "estado": "Activo"
+  },
+  {
+    "id": 32,
+    "nombre": "Ulises Romero",
+    "empresa": "UR Proyectos",
+    "contacto": "Ulises Romero",
+    "telefono": "+52 81 1022 0022",
+    "email": "ulises.romero@email.com",
+    "ciudad": "Monterrey",
+    "estado": "Prospecto"
+  },
+  {
+    "id": 33,
+    "nombre": "Valeria Núñez",
+    "empresa": "VN Marketing",
+    "contacto": "Valeria Núñez",
+    "telefono": "+52 999 1023 0023",
+    "email": "valeria.nunez@email.com",
+    "ciudad": "Mérida",
+    "estado": "Activo"
+  },
+  {
+    "id": 34,
+    "nombre": "World Trade Services",
+    "empresa": "World Trade Services",
+    "contacto": "Jorge Ibarra",
+    "telefono": "+52 998 1024 0024",
+    "email": "jorge@wts.com.mx",
+    "ciudad": "Cancún",
+    "estado": "Activo"
+  },
+  {
+    "id": 35,
+    "nombre": "Ximena Salgado",
+    "empresa": "XS Consultores",
+    "contacto": "Ximena Salgado",
+    "telefono": "+52 442 1025 0025",
+    "email": "ximena.salgado@email.com",
+    "ciudad": "Querétaro",
+    "estado": "Inactivo"
+  },
+  {
+    "id": 36,
+    "nombre": "Yucatán Logistics",
+    "empresa": "Yucatán Logistics",
+    "contacto": "Mario Carrillo",
+    "telefono": "+52 999 1026 0026",
+    "email": "mario@ylog.com.mx",
+    "ciudad": "Mérida",
+    "estado": "Activo"
+  },
+  {
+    "id": 37,
+    "nombre": "Zaragoza Comercial",
+    "empresa": "Zaragoza Comercial",
+    "contacto": "Lucía Herrera",
+    "telefono": "+52 55 1027 0027",
+    "email": "lucia@zaragoza.com.mx",
+    "ciudad": "Ciudad de México",
+    "estado": "Prospecto"
+  },
+  {
+    "id": 38,
+    "nombre": "Alberto Cruz",
+    "empresa": "AC Servicios",
+    "contacto": "Alberto Cruz",
+    "telefono": "+52 81 1028 0028",
+    "email": "alberto.cruz@email.com",
+    "ciudad": "Monterrey",
+    "estado": "Activo"
+  },
+  {
+    "id": 39,
+    "nombre": "Bienes Raíces Horizonte",
+    "empresa": "Bienes Raíces Horizonte",
+    "contacto": "Sofía Delgado",
+    "telefono": "+52 33 1029 0029",
+    "email": "sofia@horizonte.com.mx",
+    "ciudad": "Guadalajara",
+    "estado": "Activo"
+  },
+  {
+    "id": 40,
+    "nombre": "Consultores Asociados del Norte",
+    "empresa": "Consultores Asociados del Norte",
+    "contacto": "Ramón Silva",
+    "telefono": "+52 81 1030 0030",
+    "email": "ramon@canorte.com.mx",
+    "ciudad": "Monterrey",
+    "estado": "Inactivo"
+  },
+  {
+    "id": 41,
+    "nombre": "Daniel Rojas",
+    "empresa": "DR Innovación",
+    "contacto": "Daniel Rojas",
+    "telefono": "+52 55 1031 0031",
+    "email": "daniel.rojas@email.com",
+    "ciudad": "Ciudad de México",
+    "estado": "Activo"
+  },
+  {
+    "id": 42,
+    "nombre": "Elena Vargas",
+    "empresa": "EV Comercial",
+    "contacto": "Elena Vargas",
+    "telefono": "+52 222 1032 0032",
+    "email": "elena.vargas@email.com",
+    "ciudad": "Puebla",
+    "estado": "Prospecto"
+  },
+  {
+    "id": 43,
+    "nombre": "Fernando Castillo",
+    "empresa": "FC Proyectos",
+    "contacto": "Fernando Castillo",
+    "telefono": "+52 33 1033 0033",
+    "email": "fernando.castillo@email.com",
+    "ciudad": "Guadalajara",
+    "estado": "Activo"
+  },
+  {
+    "id": 44,
+    "nombre": "Grupo Empresarial del Pacífico",
+    "empresa": "Grupo Empresarial del Pacífico",
+    "contacto": "Andrea Molina",
+    "telefono": "+52 667 1034 0034",
+    "email": "andrea@gep.com.mx",
+    "ciudad": "Culiacán",
+    "estado": "Activo"
+  },
+  {
+    "id": 45,
+    "nombre": "Hernán Aguilar",
+    "empresa": "HA Distribuciones",
+    "contacto": "Hernán Aguilar",
+    "telefono": "+52 477 1035 0035",
+    "email": "hernan.aguilar@email.com",
+    "ciudad": "León",
+    "estado": "Prospecto"
+  },
+  {
+    "id": 46,
+    "nombre": "Isabel Méndez",
+    "empresa": "IM Consultoría",
+    "contacto": "Isabel Méndez",
+    "telefono": "+52 55 1036 0036",
+    "email": "isabel.mendez@email.com",
+    "ciudad": "Ciudad de México",
+    "estado": "Activo"
+  },
+  {
+    "id": 47,
+    "nombre": "Jorge Lara",
+    "empresa": "JL Servicios",
+    "contacto": "Jorge Lara",
+    "telefono": "+52 81 1037 0037",
+    "email": "jorge.lara@email.com",
+    "ciudad": "Monterrey",
+    "estado": "Activo"
+  },
+  {
+    "id": 48,
+    "nombre": "Karen Pineda",
+    "empresa": "KP Marketing",
+    "contacto": "Karen Pineda",
+    "telefono": "+52 998 1038 0038",
+    "email": "karen.pineda@email.com",
+    "ciudad": "Cancún",
+    "estado": "Inactivo"
+  },
+  {
+    "id": 49,
+    "nombre": "Luis Andrade",
+    "empresa": "LA Proyectos",
+    "contacto": "Luis Andrade",
+    "telefono": "+52 442 1039 0039",
+    "email": "luis.andrade@email.com",
+    "ciudad": "Querétaro",
+    "estado": "Activo"
+  },
+  {
+    "id": 50,
+    "nombre": "Mariana Torres",
+    "empresa": "MT Comercial",
+    "contacto": "Mariana Torres",
+    "telefono": "+52 55 1040 0040",
+    "email": "mariana.torres@email.com",
+    "ciudad": "Ciudad de México",
+    "estado": "Prospecto"
+  },
+  {
+    "id": 51,
+    "nombre": "Nicolás Cabrera",
+    "empresa": "NC Soluciones",
+    "contacto": "Nicolás Cabrera",
+    "telefono": "+52 81 1041 0041",
+    "email": "nicolas.cabrera@email.com",
+    "ciudad": "Monterrey",
+    "estado": "Activo"
+  },
+  {
+    "id": 52,
+    "nombre": "Olivia Reyes",
+    "empresa": "OR Comercial",
+    "contacto": "Olivia Reyes",
+    "telefono": "+52 55 1042 0042",
+    "email": "olivia.reyes@email.com",
+    "ciudad": "Ciudad de México",
+    "estado": "Prospecto"
+  },
+  {
+    "id": 53,
+    "nombre": "Pablo Mendoza",
+    "empresa": "PM Consultores",
+    "contacto": "Pablo Mendoza",
+    "telefono": "+52 33 1043 0043",
+    "email": "pablo.mendoza@email.com",
+    "ciudad": "Guadalajara",
+    "estado": "Activo"
+  },
+  {
+    "id": 54,
+    "nombre": "Quality Services MX",
+    "empresa": "Quality Services MX",
+    "contacto": "Teresa Lozano",
+    "telefono": "+52 222 1044 0044",
+    "email": "teresa@qsmx.com.mx",
+    "ciudad": "Puebla",
+    "estado": "Inactivo"
+  },
+  {
+    "id": 55,
+    "nombre": "Raúl Esquivel",
+    "empresa": "RE Distribuciones",
+    "contacto": "Raúl Esquivel",
+    "telefono": "+52 477 1045 0045",
+    "email": "raul.esquivel@email.com",
+    "ciudad": "León",
+    "estado": "Activo"
+  },
+  {
+    "id": 56,
+    "nombre": "Samantha Ríos",
+    "empresa": "SR Marketing",
+    "contacto": "Samantha Ríos",
+    "telefono": "+52 999 1046 0046",
+    "email": "samantha.rios@email.com",
+    "ciudad": "Mérida",
+    "estado": "Prospecto"
+  },
+  {
+    "id": 57,
+    "nombre": "Tadeo Fuentes",
+    "empresa": "TF Proyectos",
+    "contacto": "Tadeo Fuentes",
+    "telefono": "+52 998 1047 0047",
+    "email": "tadeo.fuentes@email.com",
+    "ciudad": "Cancún",
+    "estado": "Activo"
+  },
+  {
+    "id": 58,
+    "nombre": "Unidad Empresarial Centro",
+    "empresa": "Unidad Empresarial Centro",
+    "contacto": "Gabriela Santos",
+    "telefono": "+52 55 1048 0048",
+    "email": "gabriela@uec.com.mx",
+    "ciudad": "Ciudad de México",
+    "estado": "Activo"
+  },
+  {
+    "id": 59,
+    "nombre": "Víctor Hugo Salas",
+    "empresa": "VHS Servicios",
+    "contacto": "Víctor Hugo Salas",
+    "telefono": "+52 81 1049 0049",
+    "email": "victor.salas@email.com",
+    "ciudad": "Monterrey",
+    "estado": "Inactivo"
+  },
+  {
+    "id": 60,
+    "nombre": "Wendy Carrasco",
+    "empresa": "WC Comercial",
+    "contacto": "Wendy Carrasco",
+    "telefono": "+52 442 1050 0050",
+    "email": "wendy.carrasco@email.com",
+    "ciudad": "Querétaro",
+    "estado": "Activo"
+  },
+  {
+    "id": 61,
+    "nombre": "Xavier Molina",
+    "empresa": "XM Innovación",
+    "contacto": "Xavier Molina",
+    "telefono": "+52 55 1051 0051",
+    "email": "xavier.molina@email.com",
+    "ciudad": "Ciudad de México",
+    "estado": "Prospecto"
+  },
+  {
+    "id": 62,
+    "nombre": "Yolanda Guerrero",
+    "empresa": "YG Distribuciones",
+    "contacto": "Yolanda Guerrero",
+    "telefono": "+52 33 1052 0052",
+    "email": "yolanda.guerrero@email.com",
+    "ciudad": "Guadalajara",
+    "estado": "Activo"
+  },
+  {
+    "id": 63,
+    "nombre": "Zaid Contreras",
+    "empresa": "ZC Proyectos",
+    "contacto": "Zaid Contreras",
+    "telefono": "+52 222 1053 0053",
+    "email": "zaid.contreras@email.com",
+    "ciudad": "Puebla",
+    "estado": "Activo"
+  },
+  {
+    "id": 64,
+    "nombre": "Alma Cordero",
+    "empresa": "AC Soluciones",
+    "contacto": "Alma Cordero",
+    "telefono": "+52 81 1054 0054",
+    "email": "alma.cordero@email.com",
+    "ciudad": "Monterrey",
+    "estado": "Prospecto"
+  },
+  {
+    "id": 65,
+    "nombre": "Bruno Delgado",
+    "empresa": "BD Consultores",
+    "contacto": "Bruno Delgado",
+    "telefono": "+52 55 1055 0055",
+    "email": "bruno.delgado@email.com",
+    "ciudad": "Ciudad de México",
+    "estado": "Activo"
+  },
+  {
+    "id": 66,
+    "nombre": "Camila Estrada",
+    "empresa": "CE Marketing",
+    "contacto": "Camila Estrada",
+    "telefono": "+52 477 1056 0056",
+    "email": "camila.estrada@email.com",
+    "ciudad": "León",
+    "estado": "Activo"
+  },
+  {
+    "id": 67,
+    "nombre": "Diego Figueroa",
+    "empresa": "DF Servicios",
+    "contacto": "Diego Figueroa",
+    "telefono": "+52 999 1057 0057",
+    "email": "diego.figueroa@email.com",
+    "ciudad": "Mérida",
+    "estado": "Inactivo"
+  },
+  {
+    "id": 68,
+    "nombre": "Estefanía Gil",
+    "empresa": "EG Comercial",
+    "contacto": "Estefanía Gil",
+    "telefono": "+52 998 1058 0058",
+    "email": "estefania.gil@email.com",
+    "ciudad": "Cancún",
+    "estado": "Activo"
+  },
+  {
+    "id": 69,
+    "nombre": "Fabián Herrera",
+    "empresa": "FH Proyectos",
+    "contacto": "Fabián Herrera",
+    "telefono": "+52 55 1059 0059",
+    "email": "fabian.herrera@email.com",
+    "ciudad": "Ciudad de México",
+    "estado": "Prospecto"
+  },
+  {
+    "id": 70,
+    "nombre": "Gabriela Ibarra",
+    "empresa": "GI Soluciones",
+    "contacto": "Gabriela Ibarra",
+    "telefono": "+52 81 1060 0060",
+    "email": "gabriela.ibarra@email.com",
+    "ciudad": "Monterrey",
+    "estado": "Activo"
+  },
+  {
+    "id": 71,
+    "nombre": "Héctor Juárez",
+    "empresa": "HJ Comercial",
+    "contacto": "Héctor Juárez",
+    "telefono": "+52 33 1061 0061",
+    "email": "hector.juarez@email.com",
+    "ciudad": "Guadalajara",
+    "estado": "Activo"
+  },
+  {
+    "id": 72,
+    "nombre": "Ivanna Klein",
+    "empresa": "IK Consultores",
+    "contacto": "Ivanna Klein",
+    "telefono": "+52 55 1062 0062",
+    "email": "ivanna.klein@email.com",
+    "ciudad": "Ciudad de México",
+    "estado": "Inactivo"
+  },
+  {
+    "id": 73,
+    "nombre": "Julián Lozano",
+    "empresa": "JL Innovación",
+    "contacto": "Julián Lozano",
+    "telefono": "+52 222 1063 0063",
+    "email": "julian.lozano@email.com",
+    "ciudad": "Puebla",
+    "estado": "Activo"
+  },
+  {
+    "id": 74,
+    "nombre": "Karen Méndez",
+    "empresa": "KM Distribuciones",
+    "contacto": "Karen Méndez",
+    "telefono": "+52 477 1064 0064",
+    "email": "karen.mendez@email.com",
+    "ciudad": "León",
+    "estado": "Prospecto"
+  },
+  {
+    "id": 75,
+    "nombre": "Luis Navarro",
+    "empresa": "LN Servicios",
+    "contacto": "Luis Navarro",
+    "telefono": "+52 999 1065 0065",
+    "email": "luis.navarro@email.com",
+    "ciudad": "Mérida",
+    "estado": "Activo"
+  },
+  {
+    "id": 76,
+    "nombre": "María Ochoa",
+    "empresa": "MO Comercial",
+    "contacto": "María Ochoa",
+    "telefono": "+52 55 1066 0066",
+    "email": "maria.ochoa@email.com",
+    "ciudad": "Ciudad de México",
+    "estado": "Activo"
+  },
+  {
+    "id": 77,
+    "nombre": "Néstor Pérez",
+    "empresa": "NP Proyectos",
+    "contacto": "Néstor Pérez",
+    "telefono": "+52 81 1067 0067",
+    "email": "nestor.perez@email.com",
+    "ciudad": "Monterrey",
+    "estado": "Prospecto"
+  },
+  {
+    "id": 78,
+    "nombre": "Olga Quintana",
+    "empresa": "OQ Marketing",
+    "contacto": "Olga Quintana",
+    "telefono": "+52 33 1068 0068",
+    "email": "olga.quintana@email.com",
+    "ciudad": "Guadalajara",
+    "estado": "Activo"
+  },
+  {
+    "id": 79,
+    "nombre": "Patricio Ramos",
+    "empresa": "PR Consultores",
+    "contacto": "Patricio Ramos",
+    "telefono": "+52 222 1069 0069",
+    "email": "patricio.ramos@email.com",
+    "ciudad": "Puebla",
+    "estado": "Activo"
+  },
+  {
+    "id": 80,
+    "nombre": "Renata Salazar",
+    "empresa": "RS Soluciones",
+    "contacto": "Renata Salazar",
+    "telefono": "+52 55 1070 0070",
+    "email": "renata.salazar@email.com",
+    "ciudad": "Ciudad de México",
+    "estado": "Inactivo"
+  },
+  {
+    "id": 81,
+    "nombre": "Sebastián Torres",
+    "empresa": "ST Comercial",
+    "contacto": "Sebastián Torres",
+    "telefono": "+52 81 1071 0071",
+    "email": "sebastian.torres@email.com",
+    "ciudad": "Monterrey",
+    "estado": "Activo"
+  },
+  {
+    "id": 82,
+    "nombre": "Tatiana Ugalde",
+    "empresa": "TU Innovación",
+    "contacto": "Tatiana Ugalde",
+    "telefono": "+52 999 1072 0072",
+    "email": "tatiana.ugalde@email.com",
+    "ciudad": "Mérida",
+    "estado": "Prospecto"
+  },
+  {
+    "id": 83,
+    "nombre": "Ulises Valdez",
+    "empresa": "UV Proyectos",
+    "contacto": "Ulises Valdez",
+    "telefono": "+52 998 1073 0073",
+    "email": "ulises.valdez@email.com",
+    "ciudad": "Cancún",
+    "estado": "Activo"
+  },
+  {
+    "id": 84,
+    "nombre": "Verónica Wong",
+    "empresa": "VW Distribuciones",
+    "contacto": "Verónica Wong",
+    "telefono": "+52 55 1074 0074",
+    "email": "veronica.wong@email.com",
+    "ciudad": "Ciudad de México",
+    "estado": "Activo"
+  },
+  {
+    "id": 85,
+    "nombre": "William Xicoténcatl",
+    "empresa": "WX Comercial",
+    "contacto": "William Xicoténcatl",
+    "telefono": "+52 442 1075 0075",
+    "email": "william.x@email.com",
+    "ciudad": "Querétaro",
+    "estado": "Inactivo"
+  },
+  {
+    "id": 86,
+    "nombre": "Ximena Yáñez",
+    "empresa": "XY Consultores",
+    "contacto": "Ximena Yáñez",
+    "telefono": "+52 55 1076 0076",
+    "email": "ximena.yanez@email.com",
+    "ciudad": "Ciudad de México",
+    "estado": "Activo"
+  },
+  {
+    "id": 87,
+    "nombre": "Yahir Zúñiga",
+    "empresa": "YZ Servicios",
+    "contacto": "Yahir Zúñiga",
+    "telefono": "+52 81 1077 0077",
+    "email": "yahir.zuniga@email.com",
+    "ciudad": "Monterrey",
+    "estado": "Prospecto"
+  },
+  {
+    "id": 88,
+    "nombre": "Adriana Álvarez",
+    "empresa": "AA Marketing",
+    "contacto": "Adriana Álvarez",
+    "telefono": "+52 33 1078 0078",
+    "email": "adriana.alvarez@email.com",
+    "ciudad": "Guadalajara",
+    "estado": "Activo"
+  },
+  {
+    "id": 89,
+    "nombre": "Benjamín Blanco",
+    "empresa": "BB Proyectos",
+    "contacto": "Benjamín Blanco",
+    "telefono": "+52 222 1079 0079",
+    "email": "benjamin.blanco@email.com",
+    "ciudad": "Puebla",
+    "estado": "Activo"
+  },
+  {
+    "id": 90,
+    "nombre": "Claudia Cervantes",
+    "empresa": "CC Soluciones",
+    "contacto": "Claudia Cervantes",
+    "telefono": "+52 55 1080 0080",
+    "email": "claudia.cervantes@email.com",
+    "ciudad": "Ciudad de México",
+    "estado": "Prospecto"
+  },
+  {
+    "id": 91,
+    "nombre": "David Domínguez",
+    "empresa": "DD Comercial",
+    "contacto": "David Domínguez",
+    "telefono": "+52 81 1081 0081",
+    "email": "david.dominguez@email.com",
+    "ciudad": "Monterrey",
+    "estado": "Activo"
+  },
+  {
+    "id": 92,
+    "nombre": "Elisa Escobar",
+    "empresa": "EE Innovación",
+    "contacto": "Elisa Escobar",
+    "telefono": "+52 999 1082 0082",
+    "email": "elisa.escobar@email.com",
+    "ciudad": "Mérida",
+    "estado": "Inactivo"
+  },
+  {
+    "id": 93,
+    "nombre": "Francisco Flores",
+    "empresa": "FF Distribuciones",
+    "contacto": "Francisco Flores",
+    "telefono": "+52 998 1083 0083",
+    "email": "francisco.flores@email.com",
+    "ciudad": "Cancún",
+    "estado": "Activo"
+  },
+  {
+    "id": 94,
+    "nombre": "Gabriela Gómez",
+    "empresa": "GG Proyectos",
+    "contacto": "Gabriela Gómez",
+    "telefono": "+52 55 1084 0084",
+    "email": "gabriela.gomez@email.com",
+    "ciudad": "Ciudad de México",
+    "estado": "Activo"
+  },
+  {
+    "id": 95,
+    "nombre": "Hugo Hernández",
+    "empresa": "HH Consultores",
+    "contacto": "Hugo Hernández",
+    "telefono": "+52 81 1085 0085",
+    "email": "hugo.hernandez@email.com",
+    "ciudad": "Monterrey",
+    "estado": "Prospecto"
+  },
+  {
+    "id": 96,
+    "nombre": "Ingrid Ibarra",
+    "empresa": "II Comercial",
+    "contacto": "Ingrid Ibarra",
+    "telefono": "+52 33 1086 0086",
+    "email": "ingrid.ibarra@email.com",
+    "ciudad": "Guadalajara",
+    "estado": "Activo"
+  },
+  {
+    "id": 97,
+    "nombre": "Jorge Jiménez",
+    "empresa": "JJ Soluciones",
+    "contacto": "Jorge Jiménez",
+    "telefono": "+52 222 1087 0087",
+    "email": "jorge.jimenez@email.com",
+    "ciudad": "Puebla",
+    "estado": "Activo"
+  },
+  {
+    "id": 98,
+    "nombre": "Karla Kruger",
+    "empresa": "KK Marketing",
+    "contacto": "Karla Kruger",
+    "telefono": "+52 55 1088 0088",
+    "email": "karla.kruger@email.com",
+    "ciudad": "Ciudad de México",
+    "estado": "Inactivo"
+  },
+  {
+    "id": 99,
+    "nombre": "Leonardo López",
+    "empresa": "LL Proyectos",
+    "contacto": "Leonardo López",
+    "telefono": "+52 81 1089 0089",
+    "email": "leonardo.lopez@email.com",
+    "ciudad": "Monterrey",
+    "estado": "Activo"
+  },
+  {
+    "id": 100,
+    "nombre": "Monserrat Martínez",
+    "empresa": "MM Distribuciones",
+    "contacto": "Monserrat Martínez",
+    "telefono": "+52 55 1090 0090",
+    "email": "monserrat.martinez@email.com",
+    "ciudad": "Ciudad de México",
+    "estado": "Activo"
   }
 ]
